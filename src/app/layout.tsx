@@ -9,8 +9,8 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Abdoulay Lashley | Portfolio",
-  description: "Product Manager • Data Scientist • Bioengineer",
+  title: "Dante Caraballo | Portfolio",
+  description: "Analyst • Data Scientist • Web Developer",
 };
 
 export default function RootLayout({

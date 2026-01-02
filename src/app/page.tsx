@@ -7,23 +7,23 @@ import { Github, Linkedin, Mail, ChevronRight, ArrowRight, Eye, Phone, MapPin, S
 // Personal Data Configuration
 // ==========================
 const PERSONAL_INFO = {
-  name: 'Abdoulay Lashley',
-  title: 'Product Manager • Data Scientist • Bioengineer',
-  email: 'abdoulay.lashley@gmail.com',
-  phone: '(301) 412-0932',
-  linkedin: 'https://linkedin.com/in/abdoulay-lashley',
-  github: 'https://github.com/alashle',
-  location: 'Washington D.C. Metro Area',
+  name: 'Dante Caraballo',
+  title: 'Analyst • Data Scientist • Web Developer',
+  email: 'dantecaraballo01@gmail.com',
+  phone: '(832) 574-5694',
+  linkedin: 'https://www.linkedin.com/in/dbc4k43/',
+  github: 'https://github.com/Dante4k43',
+  location: 'Greater Houston Area, TX',
   about: {
-    intro: 'I Transform Complex Challenges Into Elegant Solutions That Create Real Impact',
-    main: "My journey spans from bioengineering labs at UMD to L'Oréal's manufacturing floors, and now into the forefront of data science, product management, and generative AI. I bring a unique perspective: the precision of an engineer, the vision of a product manager, and the analytical rigor of a data scientist.",
-    closer: "A recent MS in Information Systems graduate from UMD and Terrapin Scholar, I’ve led teams across projects ranging from enterprise NLP platforms to blockchain logistics. I focus on building thoughtful products that connect real human needs with practical, scalable technology.",
+    intro: 'Building thoughtful, scalable solutions from concept to execution.',
+    main: "My journey reflects a deliberate progression—from mastering core programming and data fundamentals in my undergraduate studies to applying machine learning and advanced analytics in my graduate work. Along the way, I’ve focused on building systems that are technically sound, scalable, and grounded in real-world use cases.",
+    closer: "MS in Information Systems graduate from UMD and Terrapin Scholar, with hands-on experience leading projects in applied machine learning, data engineering, and system design. I prioritize building scalable, data-driven solutions grounded in business requirments and user experience.",
   },
   stats: [
-    { label: 'Projects Shipped', value: '5+', icon: <Rocket className="w-12 h-12 mx-auto text-blue-600" /> },
-    { label: 'Users Impacted', value: '100K+', icon: <Users className="w-12 h-12 mx-auto text-blue-600" /> },
-    { label: 'Team Size Led', value: '6+', icon: <UserCheck className="w-12 h-12 mx-auto text-blue-600" /> },
-    { label: 'Dedication, Commitment, and Resiliency ', value: '100%', icon: <TrendingUp className="w-12 h-12 mx-auto text-blue-600" /> },
+    { label: 'Projects Shipped', value: '5+', icon: <Rocket className="w-12 h-12 mx-auto text-red-600" /> },
+    { label: 'Users Impacted', value: '100K+', icon: <Users className="w-12 h-12 mx-auto text-red-600" /> },
+    { label: 'Team Size Led', value: '6+', icon: <UserCheck className="w-12 h-12 mx-auto text-red-600" /> },
+    { label: 'Dedication, Commitment, and Resiliency ', value: '100%', icon: <TrendingUp className="w-12 h-12 mx-auto text-red-600" /> },
     
   ],
 }
@@ -33,33 +33,29 @@ const EDUCATION = [
   {
     degree: 'Master of Science in Information Systems',
     school: "University of Maryland, Robert H. Smith School of Business",
-    period: 'Aug 2024 – Dec 2025',
-    gpa: '3.7',
-    honors: ['Terrapin Scholar', "Dean's List"],
+    period: 'Aug 2024 – May 2025',
+    gpa: '3.4',
+    honors: ['Terrapin Scholar'],
     highlights: [
-      "Graduate-level coursework in Data Mining, AI for Business, Cloud Computing, and Database Management",
-      {
-        label: "Full-Stack Product Management Bootcamp Certificate (Leland, 2025)",
-        url: "/Full-Stack PM Bootcamp Certificate - Abdoulay Lashley.pdf",
-        color: "text-green-600 dark:text-green-400"
-      },
-      "AWS Academy Certified in Cloud Architecting and Machine Learning Foundations",
-      "Led Deloitte-sponsored Capstone developing an NLP platform for Veteran sentiment analysis using AWS and LLMs",
-      "Collaborated with cross-functional teams on data-driven projects in predictive analytics and AI strategy",
-      "Developed dashboards, data pipelines, and AI prototypes that bridge business insights with technology innovation",
+      "Applied machine learning techniques across classification and regression tasks using Python, scikit-learn, and XGBoost",
+      "Built end-to-end ML pipelines covering data preprocessing, feature engineering, model training, evaluation, and deployment",
+      "Implemented automated SHAP-based model explainability to translate predictions into interpretable insights",
+      "Strengthened core AI development principles, including model validation, reproducibility, and responsible use of data",
+      "Reinforced advanced data analytics skills through predictive modeling, data mining, and large-scale dataset analysis",
     ],
   },
   {
-    degree: 'Bachelor of Science in Bioengineering',
-    school: 'University of Maryland, A. James Clark School of Engineering',
-    period: 'Aug 2018 – May 2023',
-    gpa: '3.2',
-    honors: ["Dean's List 2020-2023"],
+    degree: 'Bachelor of Science in Information Science',
+    school: 'University of Maryland, College of Information Studies',
+    period: 'Aug 2020 – May 2024',
+    gpa: '3.6',
+    honors: ["Dean's List"],
     highlights: [
-      'Developed bias-aware medical devices',
-      'Led clinical innovation projects',
-      'Combined engineering with biological systems',
-    ],
+  'Built a strong foundation in Python, SQL, object-oriented programming, and HTML/CSS/Javascript through coursework and projects',
+  'Designed and implemented analytical workflows using ETL processes to clean, transform, and analyze real-world datasets',
+  'Collaborated with the Maryland Governor’s Office to develop a Tableau dashboard for data-driven reporting and decision support',
+  'Applied data modeling, querying, and visualization techniques across multiple academic and applied analytics projects'
+  ],
   },
 ]
 
@@ -77,7 +73,7 @@ const PROJECTS = [
     impact: '95+ Lighthouse score • <200ms TTFB • 100/100 accessibility • 60% engagement boost',
     tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
     category: ['featured', 'product'],
-    gradient: 'from-sky-500 to-indigo-500',
+    gradient: 'from-red-600 to-black',
     whatIOwned: [
       'Designed and implemented the entire site architecture and UX',
       'Built reusable Project Detail modal with dynamic “Resources” (images, PDFs, links)',
@@ -108,7 +104,7 @@ const PROJECTS = [
     impact: 'Analyzed 1,000+ public posts • Thematic and sentiment insights • Filterable dashboard + AI Copilot for stakeholders',
     tech: ['Python', 'spaCy', 'KeyBERT', 'Transformers', 'FastAPI', 'RAG', 'Chart.js'],
     category: ['featured', 'product', 'data'],
-    gradient: 'from-red-600 to-indigo-600',
+    gradient: 'from-red-600 to-black',
     whatIOwned: [
       'Served as Project Manager and Business Requirements Representative, leading a five-member Deloitte-sponsored MSIS Capstone team analyzing 1,000+ Reddit posts from U.S. Veterans',
       'Led requirements gathering and stakeholder alignment with Deloitte GPS mentors, ensuring business objectives translated into effective analytical and technical solutions',
@@ -146,7 +142,7 @@ const PROJECTS = [
   impact: '10K+ users • 90% accuracy • 75% time reduction',
   tech: ['React', 'Node.js', 'OpenAI API', 'JavaScript', 'JSON'],
   category: ['featured', 'product', 'data'],
-  gradient: 'from-green-600 to-teal-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Led full-stack development using React, Node.js, and OpenAI API',
     'Built RESTful endpoints to filter 500+ food banks by ZIP, hours, and service type',
@@ -176,7 +172,7 @@ const PROJECTS = [
   impact: 'Analyzed 10 seasons • 30 teams • Built 3 interactive dashboards • Highlighted championship patterns through efficiency metrics',
   tech: ['Tableau', 'Python (nba_api)', 'Pandas', 'Calculated Fields', 'Dynamic Parameters', 'LOD Expressions'],
   category: ['featured', 'product', 'data'],
-  gradient: 'from-amber-500 to-blue-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Designed and implemented 3 interactive dashboards and 1 supplemental page within Tableau Story',
     'Engineered data pipeline using Python nba_api to collect and clean 10 seasons of NBA team-level stats',
@@ -205,7 +201,7 @@ const PROJECTS = [
   impact: '88.79% accuracy • 30% faster response',
   tech: ['PySpark', 'MLlib', 'Hadoop'],
   category: ['data'],
-  gradient: 'from-red-600 to-yellow-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Built PySpark data pipeline for ingesting and cleaning 2M+ crime records',
     'Implemented Random Forest model with parameter tuning using CrossValidator',
@@ -231,7 +227,7 @@ const PROJECTS = [
   impact: '20% contamination reduction • 15% efficiency gain • 10% cut on downtime', 
   tech: ['Power BI', 'SAP', 'Process Design', 'Product Launch', 'Data Visualization & Analysis', 'Process Improvement'],
   category: ['featured', 'product', 'biotech'],
-  gradient: 'from-purple-600 to-pink-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Created and deployed eCLAIR digital forms across production lines',
     'Collaborated with QA and engineering to refine micro-contamination controls',
@@ -250,7 +246,7 @@ const PROJECTS = [
   impact: '95% accuracy • 85% bias reduction • <$40 cost',
   tech: ['Python', 'MATLAB', 'Arduino'],
   category: ['biotech', 'data'],
-  gradient: 'from-cyan-600 to-blue-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Co-led engineering design and prototype fabrication for buccal pulse oximeter',
     'Developed signal processing algorithms in MATLAB and Python for oxygen calibration',
@@ -275,7 +271,7 @@ const PROJECTS = [
   impact: '90% faster verification',
   tech: ['Solidity', 'Web3', 'Ethereum'],
   category: ['product'],
-  gradient: 'from-yellow-600 to-green-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Developed Solidity smart contracts enabling traceable supplier verification',
     'Designed tokenomics model for ERC-20 utility token deployment',
@@ -297,7 +293,7 @@ const PROJECTS = [
   impact: '30% faster supply-chain lead times • 10% waste reduction • $200M projected from smart apparel • 40% faster decision cycles',
   tech: ['Predictive Analytics', 'IoT', 'Digital Twin', 'Blockchain', 'AR/VR', 'Excel'],
   category: ['featured', 'product'],
-  gradient: 'from-violet-600 to-yellow-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Led strategy development for operations and innovation initiatives tied to measurable KPIs',
     'Created executive roadmap and architecture for digital twin and AI adoption',
@@ -320,7 +316,7 @@ const PROJECTS = [
   impact: '3NF schema • 10+ entity tables • Consistent, queryable data for coaches and analysts',
   tech: ['SQL', 'ER Modeling', 'Lucidchart', 'Microsoft Access'],
   category: ['data'],
-  gradient: 'from-sky-600 to-indigo-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Designed ER model and converted to relational schema with primary and foreign keys',
     'Implemented DDL/DML scripts and enforced referential integrity with cascades',
@@ -342,7 +338,7 @@ const PROJECTS = [
   impact: 'R² 0.82 on stream prediction • SHAP insights • Highlighted 3.7B streams for Blinding Lights',
   tech: ['Python', 'Pandas', 'Scikit‑Learn', 'SHAP', 'Matplotlib', 'Seaborn'],
   category: ['data'],
-  gradient: 'from-rose-600 to-orange-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Cleaned and engineered cross‑platform streaming datasets',
     'Trained regression models and produced SHAP interpretability plots',
@@ -367,7 +363,7 @@ const PROJECTS = [
   impact: '79% test accuracy • 60% faster interpretation • Automated explainability artifacts',
   tech: ['Python', 'XGBoost', 'SHAP', 'Streamlit', 'LLaMA‑3‑8B', 'Scikit‑Learn'],
   category: ['featured', 'product', 'data'],
-  gradient: 'from-fuchsia-600 to-violet-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Served as PM and requirements lead aligning business goals with model design',
     'Integrated SHAP and LLM flows for global and local explanations',
@@ -390,7 +386,7 @@ const PROJECTS = [
   impact: 'AUC 0.91 • Top‑10 leaderboard • Automated feature and validation pipeline',
   tech: ['R', 'tidyverse', 'Caret', 'Clustering', 'Cross‑Validation', 'ROC/AUC'],
   category: ['data'],
-  gradient: 'from-amber-600 to-red-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Built tidyverse data prep and feature engineering scripts',
     'Tuned logistic and tree models with cross‑validation and thresholding',
@@ -408,7 +404,7 @@ const PROJECTS = [
   impact: 'Automated trip creation • 80% less manual planning • 5 APIs integrated',
   tech: ['Python', 'LLMs', 'Prompt Engineering', 'RAG', 'API Integration', 'Streamlit'],
   category: ['product', 'data'],
-  gradient: 'from-teal-600 to-blue-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Architected conversational flow and intent handling',
     'Optimized prompts and guardrails for reliable recommendations',
@@ -433,7 +429,7 @@ const PROJECTS = [
   impact: '$561K budget • 20% efficiency gain • Two new distribution centers identified',
   tech: ['ProjectLibre', 'ERP', 'Risk Management', 'PMO', 'Cost Analysis'],
   category: ['product', 'data'],
-  gradient: 'from-slate-600 to-blue-600',
+  gradient: 'from-red-600 to-black',
   whatIOwned: [
     'Co‑led scope, WBS, budgeting, and scheduling in ProjectLibre',
     'Built risk and stakeholder matrices with success metrics',
@@ -458,7 +454,6 @@ const SKILLS = {
       'Risk Management',
       'Cross-functional Collaboration',
       'Prioritization & QA Oversight',
-      'B2B & B2C Strategy',
       'OKRs & KPIs'
     ],
   },
@@ -485,8 +480,6 @@ const SKILLS = {
       'AI/ML',
       'NLP',
       'LLMs (GPT-5, OpenAI API)',
-      'Amazon SageMaker',
-      'AWS Comprehend',
       'Scikit-learn',
       'Pandas',
       'Seaborn',
@@ -500,28 +493,25 @@ const SKILLS = {
     skills: [
       'Power BI',
       'Tableau',
-      'Amazon QuickSight',
       'Google Analytics',
       'Dashboard Design',
       'Data Storytelling',
       'React.js',
       'Next.js',
       'Tailwind CSS',
-      'Leaflet.js'
+      'Leaflet.js',
     ],
   },
   'Cloud & Databases': {
     icon: <Code className="w-5 h-5" />,
     skills: [
-      'AWS (EC2, S3, RDS, Lambda, VPC, CloudFront, Glue, CloudFormation, IAM)',
       'Azure',
       'Google Cloud Platform (GCP)',
       'MySQL',
       'NoSQL',
+      'PostgreSQL',
       'MongoDB',
       'Neo4J',
-      'Snowflake',
-      'BigQuery',
       'Vercel CDN'
     ],
   },
@@ -559,19 +549,16 @@ const SKILLS = {
 
 const RESUMES = {
   tech: {
-    preview: "/LASHLEY_ABDOULAY_RESUME_TECH.pdf",
-    download: "/LASHLEY_ABDOULAY_RESUME_TECH.pdf",
-  },
-  biotech: {
-    preview: "/LASHLEY_ABDOULAY_RESUME_BIOTECH2.pdf",
-    download: "/LASHLEY_ABDOULAY_RESUME_BIOTECH2.pdf",
+    preview: "/DANTE_CARABALLO_RESUME.pdf",
+    download: "/DANTE_CARABALLO_RESUME.pdf",
   },
 }
+
 
 export default function Portfolio() {
   const [activeFilter, setActiveFilter] = useState<'featured' | 'all' | 'product' | 'data' | 'biotech'>('featured')
   const [showResumeModal, setShowResumeModal] = useState(false)
-  const [selectedResume, setSelectedResume] = useState<'tech' | 'biotech'>('tech')
+  const [selectedResume, setSelectedResume] = useState<'tech'>('tech')
   const [isScrolled, setIsScrolled] = useState(false)
   // Project modal state
   const [projectModalOpen, setProjectModalOpen] = useState(false)
@@ -625,7 +612,7 @@ export default function Portfolio() {
   const filteredProjects =
     activeFilter === 'all' ? PROJECTS : PROJECTS.filter((p) => p.category.includes(activeFilter))
 
-  const openResume = (type: 'tech' | 'biotech') => {
+  const openResume = (type: 'tech') => {
     setSelectedResume(type)
     setShowResumeModal(true)
   }
@@ -660,7 +647,7 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white transition-all duration-500">
       {/* Skip to content for accessibility */}
-      <a href="#main" className="sr-only focus:not-sr-only fixed top-2 left-2 z-[100] px-3 py-2 rounded bg-white dark:bg-black border border-gray-300 dark:border-gray-700 shadow focus:outline-none focus:ring-2 focus:ring-blue-500">Skip to content</a>
+      <a href="#main" className="sr-only focus:not-sr-only fixed top-2 left-2 z-[100] px-3 py-2 rounded bg-white dark:bg-black border border-gray-300 dark:border-gray-700 shadow focus:outline-none focus:ring-2 focus:ring-red-500">Skip to content</a>
       {/* Navigation */}
       <nav
         className={`fixed top-0 w-full z-50 transition-all duration-300 ${
@@ -683,7 +670,7 @@ export default function Portfolio() {
                 <a
                   key={l.href}
                   href={l.href}
-                  className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                  className="text-sm font-medium hover:text-red-600 dark:hover:text-red-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-500"
                 >
                   {l.label}
                 </a>
@@ -694,19 +681,11 @@ export default function Portfolio() {
               {/* Resume Buttons */}
               <button
                 onClick={() => openResume('tech')}
-                className="flex items-center gap-2 px-4 py-2 text-sm font-medium bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500 cursor-pointer"
+                className="flex items-center gap-2 px-4 py-2 text-sm font-medium bg-red-600 text-white rounded-full hover:bg-red-700 transition-all hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-500 cursor-pointer"
               >
                 <Eye className="w-4 h-4" />
-                Tech Resume
+                Resume
               </button>
-              <button
-                onClick={() => openResume('biotech')}
-                className="flex items-center gap-2 px-4 py-2 text-sm font-medium border border-gray-300 dark:border-gray-700 rounded-full hover:bg-gray-100 dark:hover:bg-gray-900 transition-all hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500 cursor-pointer"
-              >
-                <Eye className="w-4 h-4" />
-                Biotech Resume
-              </button>
-
                           </div>
           </div>
         </div>
@@ -718,9 +697,9 @@ export default function Portfolio() {
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
         {/* Gradient Background */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-black dark:to-blue-950 opacity-50" />
-          <div className="absolute top-20 left-20 w-72 h-72 bg-blue-400/20 rounded-full blur-3xl animate-pulse" />
-          <div className="absolute bottom-20 right-20 w-72 h-72 bg-purple-400/20 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute inset-0 bg-gradient-to-b from-red-50 via-white to-red-100 dark:from-gray-900 dark:via-black dark:to-red-950 opacity-50" />
+          <div className="absolute top-20 left-20 w-72 h-72 bg-red-500/20 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute bottom-20 right-20 w-72 h-72 bg-red-700/20 rounded-full blur-3xl animate-pulse" />
         </div>
 
         <div className="relative max-w-5xl mx-auto px-6 text-center">
@@ -785,7 +764,7 @@ export default function Portfolio() {
             type="button"
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
             aria-label="Scroll to next section"
-            className="mt-8 inline-flex items-center justify-center animate-bounce focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-full cursor-pointer"
+            className="mt-8 inline-flex items-center justify-center animate-bounce focus:outline-none focus:ring-2 focus:ring-red-500 rounded-full cursor-pointer"
           >
             <ChevronRight className="w-16 h-16 rotate-90 text-gray-500 hover:text-gray-700 transition-colors" />
           </button>
@@ -833,10 +812,10 @@ export default function Portfolio() {
               <div key={index} className="group/edu bg-gray-50 dark:bg-gray-900 rounded-2xl p-8 hover:shadow-xl transition-all">
                 <div className="flex flex-col md:flex-row md:justify-between mb-6">
                   <div>
-                    <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">{edu.degree}</h3>
+                    <h3 className="text-2xl font-bold mb-2 group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors">{edu.degree}</h3>
                     <p className="text-lg text-gray-600 dark:text-gray-400 mb-3">{edu.school}</p>
                     <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm">GPA: {edu.gpa}</span>
+                      <span className="px-3 py-1 bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300 rounded-full text-sm">GPA: {edu.gpa}</span>
                       {edu.honors.map((honor, i) => (
                         <span key={i} className="inline-flex items-center gap-1 px-3 py-1 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300 rounded-full text-sm">
                           <Award className="w-3 h-3" />
@@ -851,53 +830,11 @@ export default function Portfolio() {
                 <div className="grid md:grid-cols-3 gap-4">
                   {edu.highlights.map((highlight, i) => (
                     <div key={i} className="flex items-start gap-2">
-                      <ChevronRight className="w-4 h-4 text-green-500 mt-1 flex-shrink-0" />
-                      {typeof highlight === 'string' ? (
-                        <span className="text-sm text-gray-600 dark:text-gray-400">{highlight}</span>
-                      ) : (
-                        <span className="relative inline-flex group/link z-10">
-                          <button
-                            type="button"
-                            onClick={() => setAssetViewer({ type: 'pdf', src: (highlight as any).url })}
-                            className={`cursor-pointer text-sm font-medium underline underline-offset-2 text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-300 ${highlight.color} text-left whitespace-normal focus:outline-none focus:ring-2 focus:ring-green-500`}
-                            aria-haspopup="dialog"
-                            aria-label="Open certificate"
-                          >
-                            {(highlight as any).label}
-                          </button>
+                      <ChevronRight className="w-4 h-4 text-red-500 mt-1 flex-shrink-0" />
+                      <span className="text-sm text-gray-600 dark:text-gray-400">
+  {highlight}
+</span>
 
-                          {/* Popover / tooltip on hover or keyboard focus */}
-                          <div
-                            role="tooltip"
-                            className="absolute left-0 top-full mt-2 w-72 z-20 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-lg p-3 text-sm text-gray-700 dark:text-gray-300
-                                       opacity-0 scale-95 pointer-events-none
-                                       group-hover/link:opacity-100 group-hover/link:scale-100 group-hover/link:pointer-events-auto
-                                       group-focus-within/link:opacity-100 group-focus-within/link:scale-100 group-focus-within/link:pointer-events-auto
-                                       hover:opacity-100 hover:scale-100 hover:pointer-events-auto
-                                       before:content-[''] before:absolute before:-top-3 before:left-0 before:w-full before:h-3
-                                       transition-all duration-500 ease-in-out delay-150 hover:delay-[150ms]"
-                          >
-                            <p className="font-medium mb-1">Full-Stack PM Certificate</p>
-                            <p className="text-xs mb-2">View it in a fullscreen viewer or download the PDF.</p>
-                            <div className="flex gap-2">
-                              <button
-                                type="button"
-                                onClick={() => setAssetViewer({ type: 'pdf', src: (highlight as any).url })}
-                                className="cursor-pointer px-2 py-1 rounded-md bg-green-600 text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
-                              >
-                                View
-                              </button>
-                              <a
-                                href={(highlight as any).url}
-                                download
-                                className="cursor-pointer px-2 py-1 rounded-md border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                              >
-                                Download
-                              </a>
-                            </div>
-                          </div>
-                        </span>
-                      )}
                     </div>
                   ))}
                 </div>
@@ -935,7 +872,7 @@ export default function Portfolio() {
             {filteredProjects.map((project) => (
               <div
                 key={project.id}
-                className="group relative bg-white dark:bg-gray-900 rounded-2xl overflow-hidden hover:shadow-2xl transition-all hover:scale-105 focus-within:ring-2 focus-within:ring-blue-500 cursor-pointer"
+                className="group relative bg-white dark:bg-gray-900 rounded-2xl overflow-hidden hover:shadow-2xl transition-all hover:scale-105 focus-within:ring-2 focus-within:ring-red-500 cursor-pointer"
                 role="button"
                 tabIndex={0}
                 aria-label={`Open details for ${project.title}`}
@@ -958,7 +895,7 @@ export default function Portfolio() {
 
                   <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
 
-                  <p className="text-sm font-medium text-green-600 dark:text-green-400 mb-4">{project.impact}</p>
+                  <p className="text-sm font-medium text-red-600 dark:text-red-400 mb-4">{project.impact}</p>
 
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((tech, i) => (
@@ -1018,7 +955,7 @@ export default function Portfolio() {
                 <button
                   onClick={closeProject}
                   aria-label="Close project details"
-                  className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                  className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -1038,7 +975,7 @@ export default function Portfolio() {
                 </section>
                 <section>
                   <h4 className="text-sm font-semibold mb-2">Impact (Key Metrics)</h4>
-                  <p className="text-sm text-green-700 dark:text-green-400">{selectedProject.impact}</p>
+                  <p className="text-sm text-red-700 dark:text-red-400">{selectedProject.impact}</p>
                 </section>
                 <section>
                   <h4 className="text-sm font-semibold mb-2">What I Owned</h4>
@@ -1086,7 +1023,7 @@ export default function Portfolio() {
                                       })
                                     }
                                     aria-label={`Open ${selectedProject.title} image ${i + 1}`}
-                                    className="group relative aspect-video rounded-lg overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl"
+                                    className="group relative aspect-video rounded-lg overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-700 focus:outline-none focus:ring-2 focus:ring-red-500 transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl"
                                   >
                                     <img
                                       src={src}
@@ -1106,7 +1043,7 @@ export default function Portfolio() {
                                         href={lnk.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-sm text-blue-600 dark:text-blue-400 underline underline-offset-2"
+                                        className="text-sm text-red-600 dark:text-red-400 underline underline-offset-2"
                                       >
                                         {lnk.label}
                                       </a>
@@ -1121,7 +1058,7 @@ export default function Portfolio() {
                                       key={i}
                                       type="button"
                                       onClick={() => setAssetViewer({ type: 'pdf', src: pdfSrc })}
-                                      className="w-full inline-flex items-center justify-center gap-2 px-3 py-2 text-sm rounded-lg border border-gray-200 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+                                      className="w-full inline-flex items-center justify-center gap-2 px-3 py-2 text-sm rounded-lg border border-gray-200 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-red-500 cursor-pointer"
                                       aria-label={`Open ${selectedProject.title} document ${i + 1}`}
                                     >
                                       <Download className="w-4 h-4" />
@@ -1143,7 +1080,7 @@ export default function Portfolio() {
                                 type="button"
                                 onClick={() => setAssetViewer({ type: 'pdf', src: pdfSrc })}
                                 aria-label={`Open ${selectedProject.title} document`}
-                                className="w-full aspect-[16/10] rounded-lg overflow-hidden border border-gray-200 dark:border-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg"
+                                className="w-full aspect-[16/10] rounded-lg overflow-hidden border border-gray-200 dark:border-gray-800 focus:outline-none focus:ring-2 focus:ring-red-500 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg"
                               >
                                 <iframe
                                   src={pdfSrc}
@@ -1159,7 +1096,7 @@ export default function Portfolio() {
                                         href={lnk.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-sm text-blue-600 dark:text-blue-400 underline underline-offset-2"
+                                        className="text-sm text-red-600 dark:text-red-400 underline underline-offset-2"
                                       >
                                         {lnk.label}
                                       </a>
@@ -1180,7 +1117,7 @@ export default function Portfolio() {
                                     href={lnk.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-sm text-blue-600 dark:text-blue-400 underline underline-offset-2"
+                                    className="text-sm text-red-600 dark:text-red-400 underline underline-offset-2"
                                   >
                                     {lnk.label}
                                   </a>
@@ -1198,7 +1135,7 @@ export default function Portfolio() {
                                   key={i}
                                   type="button"
                                   onClick={() => setAssetViewer({ type: 'pdf', src: pdfSrc })}
-                                  className="w-full inline-flex items-center justify-center gap-2 px-3 py-2 text-sm rounded-lg border border-gray-200 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+                                  className="w-full inline-flex items-center justify-center gap-2 px-3 py-2 text-sm rounded-lg border border-gray-200 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-red-500 cursor-pointer"
                                   aria-label={`Open ${selectedProject.title} document ${i + 1}`}
                                 >
                                   <Download className="w-4 h-4" />
@@ -1230,14 +1167,14 @@ export default function Portfolio() {
                 className="group bg-gray-50 dark:bg-gray-900 rounded-2xl p-6 hover:shadow-xl transition-all hover:scale-105"
               >
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 bg-blue-100 dark:bg-blue-900/30 rounded-lg text-blue-600 dark:text-blue-400">{(data as any).icon}</div>
+                  <div className="p-2 bg-red-100 dark:bg-red-900/30 rounded-lg text-red-600 dark:text-red-400">{(data as any).icon}</div>
                   <h3 className="text-lg font-semibold">{category}</h3>
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {(data as any).skills.map((skill: string, i: number) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-white dark:bg-gray-800 rounded-lg text-sm hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors cursor-auto"
+                      className="px-3 py-1 bg-white dark:bg-gray-800 rounded-lg text-sm hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors cursor-auto"
                     >
                       {skill}
                     </span>
@@ -1261,7 +1198,7 @@ export default function Portfolio() {
                 href={`mailto:${PERSONAL_INFO.email}`}
                 className="group flex flex-col items-center p-6 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800 transition-all"
               >
-                <Mail className="w-8 h-8 text-blue-600 mb-3 group-hover:scale-110 transition-transform" />
+                <Mail className="w-8 h-8 text-red-600 mb-3 group-hover:scale-110 transition-transform" />
                 <span className="text-sm text-gray-600 dark:text-gray-400">Email</span>
                 <span className="text-sm font-medium">{PERSONAL_INFO.email}</span>
               </a>
@@ -1270,7 +1207,7 @@ export default function Portfolio() {
                 href={`tel:+13014120932`}
                 className="group flex flex-col items-center p-6 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800 transition-all"
               >
-                <Phone className="w-8 h-8 text-blue-600 mb-3 group-hover:scale-110 transition-transform" />
+                <Phone className="w-8 h-8 text-red-600 mb-3 group-hover:scale-110 transition-transform" />
                 <span className="text-sm text-gray-600 dark:text-gray-400">Phone</span>
                 <span className="text-sm font-medium">{PERSONAL_INFO.phone}</span>
               </a>
@@ -1281,7 +1218,7 @@ export default function Portfolio() {
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center p-6 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800 transition-all"
               >
-                <Linkedin className="w-8 h-8 text-blue-600 mb-3 group-hover:scale-110 transition-transform" />
+                <Linkedin className="w-8 h-8 text-red-600 mb-3 group-hover:scale-110 transition-transform" />
                 <span className="text-sm text-gray-600 dark:text-gray-400">LinkedIn</span>
                 <span className="text-sm font-medium">Connect</span>
               </a>
@@ -1316,7 +1253,7 @@ export default function Portfolio() {
             <div className="flex items-center justify-between gap-3 p-4 border-b border-gray-200 dark:border-gray-800">
               <div className="flex items-center gap-3">
                 <Eye className="w-4 h-4" />
-                <span className="text-sm font-medium">{selectedResume === 'tech' ? 'Tech Resume' : 'Biotech Resume'}</span>
+                <span className="text-sm font-medium">Resume</span>
               </div>
               <div className="flex items-center gap-2">
                 <a
@@ -1366,7 +1303,7 @@ export default function Portfolio() {
               type="button"
               onClick={() => setAssetViewer(null)}
               aria-label="Close viewer"
-              className="absolute top-3 right-3 z-10 inline-flex items-center justify-center w-9 h-9 rounded-full bg-white/90 text-gray-900 hover:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="absolute top-3 right-3 z-10 inline-flex items-center justify-center w-9 h-9 rounded-full bg-white/90 text-gray-900 hover:bg-white focus:outline-none focus:ring-2 focus:ring-red-500"
             >
               <X className="w-5 h-5" />
             </button>
@@ -1392,7 +1329,7 @@ export default function Portfolio() {
                       })
                     }}
                     disabled={assetViewer.index <= 0}
-                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-black rounded-full p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-40 disabled:cursor-not-allowed"
+                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-black rounded-full p-3 focus:outline-none focus:ring-2 focus:ring-red-500 disabled:opacity-40 disabled:cursor-not-allowed"
                     aria-label="Previous image"
                   >
                     ‹
@@ -1412,7 +1349,7 @@ export default function Portfolio() {
                       })
                     }}
                     disabled={assetViewer.index >= assetViewer.items.length - 1}
-                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-black rounded-full p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-40 disabled:cursor-not-allowed"
+                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-black rounded-full p-3 focus:outline-none focus:ring-2 focus:ring-red-500 disabled:opacity-40 disabled:cursor-not-allowed"
                     aria-label="Next image"
                   >
                     ›
